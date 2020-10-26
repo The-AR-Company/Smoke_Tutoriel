@@ -158,3 +158,11 @@ Voilà comment l'appliquer à n'importe quel objet de la scène! Une touche fina
 _Cet effet peut notamment s'appliquer sur des particules de la même manière_
 
 <img src="./images/emitterSmoke.png" width="500"/>
+
+### Conclusion
+
+Maintenant que nous avons notre Super Texture Distortion Shader <sup>tm</sup> et que vous savez faire de la fumée avec, voici quelques voies à explorer :
+- Animer la texture bruit (noise) afin de rendre la fumée plus fluide!
+- Appliquez-le à des séquences d'animations, notamment du feu!
+- Essayez de créer un effet de verre avec le patch de distortion
+- Fumée + un peu de distortion en arrière plan pour simuler une vague de chaleur?
