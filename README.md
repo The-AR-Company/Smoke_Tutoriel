@@ -7,4 +7,4 @@ Nous allons couvrir une méthode pour obtenir un shader de type fumée à appliq
 _Voici ce que nous allons construire :_
 <img src="https://github.com/The-AR-Company/Smoke_Tutoriel/blob/main/images/demo.gif" width="300"/>
 
-Vous trouverez l'écrit complet en naviguant au fichier Tutoriel.md. Tous les assets et fichiers projets liés peuvent aussi être obtenus en téléchargeant ce projet github.
+[Clickez ici pour le tutoriel](https://the-ar-company.github.io/Smoke_tutoriel/) et [téléchargez les fichiers liés ici](https://github.com/The-AR-Company/Smoke_tutoriel/archive/main.zip).
