@@ -4,9 +4,10 @@
 
 Ce tutoriel a été créé dans le cadre du [2020 Developer Circles Community Challenge](https://developercircles2020.devpost.com/) organisé par Facebook et Devpost.
 
-Nous allons couvrir une méthode pour obtenir un shader de type fumée à appliquer sur tout objet dans vos scènes grâce au Render Pass, une capacité assez récente de Spark AR, ainsi qu'un patch de la librairie d'assets que nous modifierons légèrement.
+Nous allons couvrir une méthode pour obtenir un shader de type fumée à appliquer sur tout objet dans vos scènes grâce au [Render Pass](https://sparkar.facebook.com/ar-studio/learn/patch-editor/render-passes/render-passes-overview#limitation) , une capacité assez récente de Spark AR, ainsi qu'un patch de la librairie d'assets que nous modifierons légèrement.
 
 _Voici ce que nous allons construire :_
+
 <img src="./images/demo.gif" width="300"/>
 
 
@@ -14,7 +15,7 @@ _Voici ce que nous allons construire :_
 
 Voici ce dont vous aurez besoin pour suivre ce tutoriel :
 1. Spark AR installé sur votre machine, version 90+ (la version la plus à jour peut être téléchargée ici : [SparkAR](https://sparkar.facebook.com/ar-studio/download/))
-2. Une texture de type "noise" soit du bruit visuel (vous en trouverez une dans le folder downloads de ce projet)
+2. Une texture de type "noise" soit du bruit visuel [(vous en trouverez une dans le folder downloads de ce projet)](./downloads/noise.jpg)
 
 C'est tout! :)
 
@@ -62,7 +63,7 @@ Voici fondamentalement ce qui fait notre effet de fumée, d'ici nous allons impl
 ### 3ème partie - _Texture Distortion Shader_
 
 Afin d'implémenter notre distortion, nous aurons besoin de deux choses :
-1. la texture "noise"
+1. [la texture "noise"](./downloads/noise.jpg)
 2. Le patch Texture Distortion Shader de la libraire d'assets in-built de Spark AR :
 
 La texture que nous allons utiliser ici est celle du folder downloads de ce projet github. Téléchargez l'image et importer la dans le panneau d'assets de Spark AR. Ensuite, naviguez vers la librairie d'assets de Spark AR et, dans la barre de recherche, chercher le patch de distortion. Une fois trouvé, importer le dans votre projet et mettez le dans votre éditeur de patch. Nous allons l'utiliser pour connecter le Receiver à gauche et le Blend patch à droite (remplaçeant la connection directe entre le Receiver et le Blend).
